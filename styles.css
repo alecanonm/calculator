@@ -27,9 +27,9 @@ h1 {
   place-content: center;
   font-size: 200%;
   gap: 5px;
-  width: 38%;
+  min-width: 38%;
   height: 100vh;
-  grid-template-columns: repeat(4, 2fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
 }
 
