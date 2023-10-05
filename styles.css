@@ -79,6 +79,6 @@ footer > section {
 
 @media (width < 750px) {
   .calculator {
-    min-width: 100%;
+    min-width: 100vw;
   }
 }
