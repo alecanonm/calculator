@@ -29,7 +29,7 @@ h1 {
   gap: 5px;
   width: 38%;
   height: 100vh;
-  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-columns: repeat(4, 2fr);
   grid-template-rows: repeat(6, 1fr);
 }
 
