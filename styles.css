@@ -41,6 +41,14 @@ div {
   background-color: rgb(193, 193, 193);
 }
 
+div:hover {
+  background-color: rgba(193, 193, 193, 0.842);
+}
+
+div:active {
+  background-color: rgba(193, 193, 193, 0.66);
+}
+
 .screen {
   display: flex;
   border-radius: 5px;
@@ -49,7 +57,7 @@ div {
   padding: 0 20px;
   flex-direction: row-reverse;
   grid-area: 1/1/1/-1;
-  background-color: #000;
+  background-color: #1f1f1f;
   color: aliceblue;
 }
 
@@ -59,6 +67,14 @@ div {
 
 .operators {
   background: #f06d06;
+}
+
+.operators:hover {
+  background: #f06b06ed;
+}
+
+.operators:active {
+  background: #f06b06b7;
 }
 
 .number-0 {
